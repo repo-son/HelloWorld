@@ -1,9 +1,8 @@
-weight = int(input('Enter the Weight: '))
-weight_type = input('(L)bs or (K)g: ')
+name = input('Enter the First Name of the User: ')
+name_last = input('Enter the Second Name of the User: ')
 
-if weight_type.upper() == 'L':
-    converted = weight * 0.45
-    print(f'You are {converted} Kilos')
+if name == 'Lahiru':
+    print(f'Full name Is: {name} {name_last}')
 else:
-    converted = weight / 0.45
-    print(f'You are {converted} Pounds')
+    print('Go and Change your name')
+
