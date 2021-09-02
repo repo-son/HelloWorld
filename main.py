@@ -1,8 +1,9 @@
-name = 'Lahiru'
-len(name)
-if len(name) < 3:
-    print('Name must be at least three characters Long')
-elif len(name) > 50:
-    print('Please Enter Below 50 Characters')
+weight = int(input('Enter the Weight: '))
+weight_type = input('(L)bs or (K)g: ')
+
+if weight_type.upper() == 'L':
+    converted = weight * 0.45
+    print(f'You are {converted} Kilos')
 else:
-    print('Name Looks Good,Carry on')
+    converted = weight / 0.45
+    print(f'You are {converted} Pounds')
