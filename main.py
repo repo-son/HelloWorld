@@ -1,3 +1,8 @@
-x = 20.24
-print(abs(-25.26))
-print(x+2)
+name = 'Lahiru'
+len(name)
+if len(name) < 3:
+    print('Name must be at least three characters Long')
+elif len(name) > 50:
+    print('Please Enter Below 50 Characters')
+else:
+    print('Name Looks Good,Carry on')
